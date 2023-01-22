@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content :center;
+    padding:20px;
+    color: white;
+    font-size: 13px;
+    margin: 0px;
+}
+main{
+    width:300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #1A1B21;
+}
+/* Info */
+section{
+    text-align: center;
+}
+.imagePlaceHolder{
+
+    width: fill;
+    height: 260px;
+    background-color: #e7e7e7;
+    background-image: linear-gradient(90deg, #e7e7e7 0%, #dde5ff 100%);
+    border-radius: 4px;
+
+}
+.Name{
+    font-size: 20px;
+    height: 10px;
+}
+.Position{
+   color: #F3BF99;
+   height: 10px;
+   
+}
+.Site{
+    font-size: 10px;
+}
+.ButtonsWrapper{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 45% 45%;
+    column-gap: 2%;
+    justify-content: center;
+}
+button{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.linkedinbtn{
+    background-color: #5093E2;
+    color: white;
+}
+i{
+    margin-right: 5px;
+}
+.head{
+    font-weight: bolder;
+}
+.footer{
+    height: 40px;
+    width: fill;
+    background-color: gray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: grid;
+    grid-auto-flow: column;
+    place-content:center;
+    column-gap: 20px;
+}
+.footer>div{
+    height: 25px;
+    width: 25px;
+    background: lightgray;
+    border-radius: 4px;
+}
